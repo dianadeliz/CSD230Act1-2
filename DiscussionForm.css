@@ -1,0 +1,83 @@
+.discussion-form-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+  
+  .discussion-form {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 2rem 2.5rem;
+    max-width: 420px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  
+  .discussion-form-title {
+    text-align: center;
+    color: #3730a3;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .discussion-form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  
+  .discussion-form-label {
+    font-size: 1rem;
+    color: #6366f1;
+    font-weight: 500;
+  }
+  
+  .discussion-form-input,
+  .discussion-form-textarea {
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.2s;
+  }
+  
+  .discussion-form-input:focus,
+  .discussion-form-textarea:focus {
+    border-color: #6366f1;
+  }
+  
+  .discussion-form-textarea {
+    min-height: 70px;
+    resize: vertical;
+  }
+  
+  .discussion-form-error {
+    color: #dc2626;
+    background: #fef2f2;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    font-size: 0.97rem;
+  }
+  
+  .discussion-form-btn {
+    background: #6366f1;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 0.7rem 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    transition: background 0.2s;
+  }
+  
+  .discussion-form-btn:hover {
+    background: #3730a3;
+  }

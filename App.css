@@ -1,0 +1,42 @@
+/* Full-page layout wrapper */
+.PageWrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main content area */
+.App {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+}
+
+/* footer stays at the bottom */
+.footer {
+  height: 50px;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+.discussion-item {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.post-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-left: 3px solid #007bff;
+  background-color: #f9f9f9;
+}
